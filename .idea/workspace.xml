@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15694814-36ed-48ee-a9ac-8fa5db6956e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d58b802-c955-494b-b3c4-884c21dc6c81/基础查询01.sql" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/datagrip.vmoptions" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1henlVqWMOpO2ldjI1YKjlsMTrY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600381200873">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600381200873" />
+    <state width="1199" height="252" key="GridCell.Tab.0.bottom" timestamp="1600802593236">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1199" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600802593236" />
+    <state width="1199" height="252" key="GridCell.Tab.0.center" timestamp="1600802593233">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1199" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600802593233" />
+    <state width="1199" height="252" key="GridCell.Tab.0.left" timestamp="1600802593232">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1199" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600802593232" />
+    <state width="1199" height="252" key="GridCell.Tab.0.right" timestamp="1600802593235">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1199" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600802593235" />
+    <state width="267" height="457" key="HiddenNamespacesPopup" timestamp="1600779620465">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="267" height="457" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1600779620465" />
+    <state x="222" y="95" key="SettingsEditor" timestamp="1600802408910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600802408910" />
+  </component>
+</project>
