@@ -25,8 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="测试">
-      <change afterPath="$PROJECT_DIR$/code/基础查询_01.sql" afterDir="false" />
+    <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="基础查询">
+      <change afterPath="$PROJECT_DIR$/code/条件查询_02.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +43,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/基础查询_01.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/datagrip.vmoptions" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1henlVqWMOpO2ldjI1YKjlsMTrY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="新增" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,7 +81,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="基础查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="284" y="283" key="#SQL_方言" timestamp="1600851341492">
@@ -109,22 +109,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600803017809" />
-    <state width="1199" height="252" key="GridCell.Tab.0.bottom" timestamp="1600851098687">
+    <state width="1180" height="252" key="GridCell.Tab.0.bottom" timestamp="1600852013436">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1199" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600851098687" />
-    <state width="1199" height="252" key="GridCell.Tab.0.center" timestamp="1600851098685">
+    <state width="1180" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600852013436" />
+    <state width="1180" height="252" key="GridCell.Tab.0.center" timestamp="1600852013435">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1199" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600851098685" />
-    <state width="1199" height="252" key="GridCell.Tab.0.left" timestamp="1600851098683">
+    <state width="1180" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600852013435" />
+    <state width="1180" height="252" key="GridCell.Tab.0.left" timestamp="1600852013434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1199" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600851098683" />
-    <state width="1199" height="252" key="GridCell.Tab.0.right" timestamp="1600851098686">
+    <state width="1180" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600852013434" />
+    <state width="1180" height="252" key="GridCell.Tab.0.right" timestamp="1600852013435">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1199" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600851098686" />
+    <state width="1180" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600852013435" />
     <state width="267" height="457" key="HiddenNamespacesPopup" timestamp="1600779620465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -133,14 +133,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="342" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600804833068" />
-    <state x="222" y="95" key="SettingsEditor" timestamp="1600807130253">
+    <state x="222" y="95" key="SettingsEditor" timestamp="1600851959065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600807130253" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600851008963">
+    <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600851959065" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600851605637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600851008963" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600851605637" />
     <state x="657" y="400" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1600805761278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
