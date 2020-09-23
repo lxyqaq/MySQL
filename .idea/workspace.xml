@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="条件查询">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/条件查询_02.sql" beforeDir="false" afterPath="$PROJECT_DIR$/code/条件查询_02.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/条件查询_03.sql" beforeDir="false" afterPath="$PROJECT_DIR$/code/测试_03.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/code/条件查询_02.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/基础查询_01.sql" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/测试_03.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/datagrip.vmoptions" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1henlVqWMOpO2ldjI1YKjlsMTrY" />
@@ -113,22 +114,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600803017809" />
-    <state width="1392" height="623" key="GridCell.Tab.0.bottom" timestamp="1600885755566">
+    <state width="1392" height="511" key="GridCell.Tab.0.bottom" timestamp="1600888328228">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="623" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600885755566" />
-    <state width="1392" height="623" key="GridCell.Tab.0.center" timestamp="1600885755563">
+    <state width="1392" height="511" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600888328228" />
+    <state width="1392" height="511" key="GridCell.Tab.0.center" timestamp="1600888328226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="623" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600885755563" />
-    <state width="1392" height="623" key="GridCell.Tab.0.left" timestamp="1600885755561">
+    <state width="1392" height="511" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600888328226" />
+    <state width="1392" height="511" key="GridCell.Tab.0.left" timestamp="1600888328225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="623" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600885755561" />
-    <state width="1392" height="623" key="GridCell.Tab.0.right" timestamp="1600885755564">
+    <state width="1392" height="511" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600888328225" />
+    <state width="1392" height="511" key="GridCell.Tab.0.right" timestamp="1600888328227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="623" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600885755564" />
+    <state width="1392" height="511" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600888328227" />
     <state width="267" height="457" key="HiddenNamespacesPopup" timestamp="1600779620465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -141,10 +142,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600851959065" />
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1600852584378">
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1600886222089">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600852584378" />
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600886222089" />
     <state x="657" y="400" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1600805761278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
