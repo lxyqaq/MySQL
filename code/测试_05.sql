@@ -40,7 +40,7 @@ FROM
 WHERE
         email LIKE '%e%'
 ORDER BY
-        length(email),
+        length(email) DESC ,
         department_id ASC ;
 
 
