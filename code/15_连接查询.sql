@@ -58,9 +58,155 @@ WHERE employees.department_id = departments.department_id;
 */
 #查询员工名、工种号、工种名
 
-SELECT e.last_name , e.job_id , j.job_title
-FROM employees AS e ,jobs AS j
+SELECT e.last_name, e.job_id, j.job_title
+FROM employees AS e,
+     jobs AS j
 WHERE e.job_id = j.job_id;
+
+#3、两个表的顺序是否可以调换
+
+#查询员工名、工种号、工种名
+
+SELECT e.last_name, e.job_id, j.job_title
+FROM jobs AS j,
+     employees AS e
+WHERE e.`job_id` = j.`job_id`;
+
+#4、可以加筛选
+
+#案例：查询有奖金的员工名、部门名
+
+SELECT last_name, department_name, commission_pct
+FROM employees AS e,
+     departments AS d
+WHERE commission_pct IS NOT NULL
+  AND e.department_id = d.department_id;
+
+#案例2：查询城市名中第二个字符为o的部门名和城市名
+
+SELECT department_name, city
+FROM departments AS d,
+     locations AS l
+WHERE d.location_id = l.location_id
+  AND city LIKE '_o%';
+
+#5、可以加分组
+
+
+#案例1：查询每个城市的部门个数
+
+SELECT count(*),
+       city
+FROM departments AS d,
+     locations AS l
+WHERE d.location_id = l.location_id
+GROUP BY city;
+
+#案例2：查询有奖金的每个部门的部门名和部门的领导编号和该部门的最低工资
+
+SELECT department_name,
+       d.manager_id,
+       min(salary)
+FROM departments AS d,
+     employees AS e
+WHERE commission_pct IS NOT NULL
+  AND d.department_id = e.department_id
+GROUP BY department_name, d.manager_id;
+
+#6、可以加排序
+
+#案例：查询每个工种的工种名和员工的个数，并且按员工个数降序
+
+SELECT count(*),
+       job_title,
+       j.job_id
+FROM jobs AS j,
+     employees AS e
+WHERE j.job_id = e.job_id
+GROUP BY job_title, j.job_id
+ORDER BY count(*) DESC;
+
+#7、可以实现三表连接？
+
+#案例：查询员工名、部门名和所在的城市
+
+SELECT last_name,
+       department_name,
+       city
+FROM employees AS e,
+     departments AS d,
+     locations AS l
+WHERE d.department_id = e.department_id
+  AND d.location_id = l.location_id;
+
+
+# 2.非等值连接
+CREATE TABLE job_grades
+(
+    grade_level VARCHAR(3),
+    lowest_sal  INT,
+    highest_sal INT
+);
+INSERT INTO job_grades
+VALUES ('A', 1000, 2999);
+INSERT INTO job_grades
+VALUES ('B', 3000, 5999);
+INSERT INTO job_grades
+VALUES ('C', 6000, 9999);
+INSERT INTO job_grades
+VALUES ('D', 10000, 14999);
+INSERT INTO job_grades
+VALUES ('E', 15000, 24999);
+INSERT INTO job_grades
+VALUES ('F', 25000, 40000);
+
+#案例1：查询员工的工资和工资级别
+
+SELECT last_name,
+       salary,
+       grade_level
+FROM employees AS e,
+     job_grades AS j
+WHERE salary BETWEEN lowest_sal AND highest_sal
+ORDER BY salary ASC;
+
+#3、自连接
+
+#案例：查询 员工名和上级的名称
+
+SELECT e.employee_id AS "员工id",
+       e.last_name   AS "员工姓名",
+       m.employee_id AS "管理者id",
+       m.last_name   AS "管理者姓名"
+FROM employees AS e,
+     employees AS m
+WHERE e.manager_id = m.employee_id;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
