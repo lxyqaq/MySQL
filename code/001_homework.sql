@@ -111,13 +111,13 @@ FROM DETAILS;
 
 # 14.What is the sum of the female wage?
 
-SELECT sum()
+SELECT sum(rate * hours)
 FROM DETAILS
 WHERE gender = 'F';
 
 # 15.What is the sum of the male wage?
 
-SELECT sum()
+SELECT sum(rate * hours)
 FROM DETAILS
 WHERE gender = 'M';
 

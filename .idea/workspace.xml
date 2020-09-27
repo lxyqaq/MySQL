@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="lab作业">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d58b802-c955-494b-b3c4-884c21dc6c81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3d58b802-c955-494b-b3c4-884c21dc6c81.xml" afterDir="false" />
+    <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="连接查询">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/15_连接查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/code/15_连接查询.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/001_homework.sql" beforeDir="false" afterPath="$PROJECT_DIR$/code/001_homework.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
     <property name="database.data.extractors.current.export.id" value="制表符分隔(TSV)_id" />
     <property name="database.data.extractors.current.id" value="制表符分隔(TSV)_id" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +114,8 @@
     <MESSAGE value="分组查询" />
     <MESSAGE value="测试" />
     <MESSAGE value="lab作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab作业" />
+    <MESSAGE value="连接查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="284" y="283" key="#SQL_方言" timestamp="1600851341492">
@@ -170,14 +170,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="342" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600804833068" />
-    <state x="222" y="95" key="SettingsEditor" timestamp="1601047684880">
+    <state x="188" y="113" key="SettingsEditor" timestamp="1601168319721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="222" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601047684880" />
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601162012018">
+    <state x="188" y="113" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601168319721" />
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601168211685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601162012018" />
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601168211685" />
     <state x="612" y="337" width="346" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600953656317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
