@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f3528a-e9cb-4a15-84a7-fb7c782723da" name="默认的" comment="测试">
-      <change afterPath="$PROJECT_DIR$/code/18_等值连接.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/20_子查询.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,8 @@
     <setting file="file://$PROJECT_DIR$/code/09_流程控制函数.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/07_数学函数.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/homework/homework_01.sql" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/20_子查询.sql" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/19_测试.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/06_字符函数.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/18_等值连接.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/05_测试.sql" root0="SKIP_INSPECTION" />
@@ -118,6 +120,7 @@
     <MESSAGE value="lab作业" />
     <MESSAGE value="连接查询" />
     <MESSAGE value="作业" />
+    <MESSAGE value="等值连接" />
     <MESSAGE value="测试" />
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
@@ -150,22 +153,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600803017809" />
-    <state width="1392" height="511" key="GridCell.Tab.0.bottom" timestamp="1601236345477">
+    <state width="1392" height="511" key="GridCell.Tab.0.bottom" timestamp="1601292630871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="511" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601236345477" />
-    <state width="1392" height="511" key="GridCell.Tab.0.center" timestamp="1601236345476">
+    <state width="1392" height="511" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601292630871" />
+    <state width="1392" height="511" key="GridCell.Tab.0.center" timestamp="1601292630869">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="511" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601236345476" />
-    <state width="1392" height="511" key="GridCell.Tab.0.left" timestamp="1601236345475">
+    <state width="1392" height="511" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601292630869" />
+    <state width="1392" height="511" key="GridCell.Tab.0.left" timestamp="1601292630868">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="511" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601236345475" />
-    <state width="1392" height="511" key="GridCell.Tab.0.right" timestamp="1601236345477">
+    <state width="1392" height="511" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601292630868" />
+    <state width="1392" height="511" key="GridCell.Tab.0.right" timestamp="1601292630870">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1392" height="511" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601236345477" />
+    <state width="1392" height="511" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601292630870" />
     <state width="267" height="457" key="HiddenNamespacesPopup" timestamp="1600953857061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -178,10 +181,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="188" y="113" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601236459077" />
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601223236508">
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601237325374">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601223236508" />
+    <state x="229" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601237325374" />
     <state x="612" y="337" width="346" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600953656317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
